@@ -7,7 +7,8 @@ export const nav = [
 	{ path: '/candidates', route: '/candidates', label: ui.nav.candidates },
 	{ path: '/program', route: '/program', label: ui.nav.program },
 	{ path: '/record', route: '/record', label: ui.nav.record },
-	{ path: '/vote', route: '/vote', label: ui.nav.vote }
+	{ path: '/vote', route: '/vote', label: ui.nav.vote },
+	{ path: '/blog', route: '/blog', label: ui.nav.blog }
 ];
 
 export const OFFICIAL_ELECTION_PAGE =

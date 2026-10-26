@@ -1,0 +1,25 @@
+{
+	"page": {
+		"metaDescription": {
+			"es": "Noticias, encuentros y reflexiones de la lista “Con Mariniello – L’Italia nel cuore” para las elecciones del Com.It.Es. México 2026–2031.",
+			"it": "Notizie, incontri e riflessioni della lista “Con Mariniello – L’Italia nel cuore” per le elezioni del Com.It.Es. Messico 2026–2031.",
+			"en": "News, meetings and thoughts from the “Con Mariniello – L’Italia nel cuore” list for the Com.It.Es. Mexico 2026–2031 elections."
+		}
+	},
+	"title": {
+		"es": "Blog",
+		"it": "Blog",
+		"en": "Blog"
+	},
+	"lead": {
+		"es": "Noticias, encuentros y reflexiones de nuestra campaña.",
+		"it": "Notizie, incontri e riflessioni della nostra campagna.",
+		"en": "News, meetings and thoughts from our campaign."
+	},
+	"empty": {
+		"es": "Muy pronto publicaremos aquí las primeras noticias. ¡Vuelve a visitarnos!",
+		"it": "Molto presto pubblicheremo qui le prime notizie. Torna a trovarci!",
+		"en": "Our first posts will be here very soon. Check back!"
+	},
+	"posts": []
+}
