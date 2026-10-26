@@ -7,9 +7,11 @@
 	// Posts live in src/lib/content/blog.json, under "posts". Each one looks like:
 	// { "slug": "first-meeting", "date": "2026-10-26",
 	//   "title": { "es": "…", "it": "…", "en": "…" },
-	//   "text":  { "es": ["paragraph", …], "it": […], "en": […] } }
+	//   "intro": { … }                                  (optional, shown in italics)
+	//   "text":  { "es": ["paragraph", …], "it": […], "en": […] }   (optional)
+	//   "sections": [{ "question": { … }, "answer": { "es": [paragraphs], … } }] }   (optional, for interviews)
 	// Newest first, whatever the order in the file.
-	/** @type {{ slug: string, date: string, title: any, text: any }[]} */
+	/** @type {{ slug: string, date: string, title: any, intro?: any, text?: any, sections?: { question: any, answer: any }[] }[]} */
 	const posts = [...blog.posts].sort((a, b) => b.date.localeCompare(a.date));
 
 	const LOCALES = { es: 'es-MX', it: 'it-IT', en: 'en-US' };
@@ -40,14 +42,21 @@
 		<article id={post.slug} class="post">
 			<time class="date" datetime={post.date}>{formatDate(post.date)}</time>
 			<h2 class="post-title">{t(post.title)}</h2>
+			{#if post.intro}
+				<p class="intro">{t(post.intro)}</p>
+			{/if}
 			<div class="post-text">
 				{#each tl(post.text) as p}
 					<p>{p}</p>
 				{/each}
+				{#each post.sections ?? [] as section, i}
+					<h3 class="question"><span class="q-num">{i + 1}.</span> {t(section.question)}</h3>
+					{#each tl(section.answer) as p}
+						<p>{p}</p>
+					{/each}
+				{/each}
 			</div>
 		</article>
-	{:else}
-		<p class="empty">{t(blog.empty)}</p>
 	{/each}
 </div>
 
@@ -120,10 +129,24 @@
 		gap: 1em;
 		margin-top: 0.4rem;
 	}
-	.empty {
-		color: var(--navy);
+	.intro {
+		color: var(--olive);
 		font-size: var(--step-1);
 		font-style: italic;
 		font-weight: 600;
+		line-height: 1.35;
+	}
+	.question {
+		margin-top: 1.2em;
+		color: var(--navy);
+		font-size: var(--step-1);
+		font-weight: 800;
+		line-height: 1.3;
+	}
+	.q-num {
+		color: var(--red);
+	}
+	.post-text p {
+		text-wrap: pretty;
 	}
 </style>
