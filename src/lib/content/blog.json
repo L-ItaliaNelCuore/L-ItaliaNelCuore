@@ -16,10 +16,16 @@
 		"it": "Notizie, incontri e riflessioni della nostra campagna.",
 		"en": "News, meetings and thoughts from our campaign."
 	},
+	"readText": {
+		"es": "Leer el texto",
+		"it": "Leggi il testo",
+		"en": "Read the text"
+	},
 	"posts": [
 		{
 			"slug": "bisogno-di-radicamento",
 			"date": "2026-10-29",
+			"image": "bisogno-di-radicamento.jpg",
 			"title": {
 				"it": "Bisogno di radicamento",
 				"es": "Necesidad de arraigo",

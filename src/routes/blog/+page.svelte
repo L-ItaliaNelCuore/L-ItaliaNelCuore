@@ -10,9 +10,15 @@
 	//   "intro": { … }                                  (optional, shown in italics)
 	//   "text":  { "es": ["paragraph", …], "it": […], "en": […] }   (optional)
 	//   "sections": [{ "question": { … }, "answer": { "es": [paragraphs], … } }] }   (optional, for interviews)
+	//   "image": "file.jpg"   (optional, a file in src/lib/assets/blog; shown in full, with the text folded below it)
 	// Newest first, whatever the order in the file.
-	/** @type {{ slug: string, date: string, title: any, intro?: any, text?: any, sections?: { question: any, answer: any }[] }[]} */
+	/** @type {{ slug: string, date: string, title: any, intro?: any, text?: any, sections?: { question: any, answer: any }[], image?: string }[]} */
 	const posts = [...blog.posts].sort((a, b) => b.date.localeCompare(a.date));
+
+	/** @type {Record<string, string>} */
+	const images = import.meta.glob('../../lib/assets/blog/*', { eager: true, import: 'default' });
+	/** @param {string} file */
+	const imageUrl = (file) => images[`../../lib/assets/blog/${file}`];
 
 	const LOCALES = { es: 'es-MX', it: 'it-IT', en: 'en-US' };
 	/** @param {string} date */
@@ -37,6 +43,20 @@
 	</div>
 </section>
 
+{#snippet body(/** @type {(typeof posts)[number]} */ post)}
+	<div class="post-text">
+		{#each tl(post.text) as p}
+			<p>{p}</p>
+		{/each}
+		{#each post.sections ?? [] as section, i}
+			<h3 class="question"><span class="q-num">{i + 1}.</span> {t(section.question)}</h3>
+			{#each tl(section.answer) as p}
+				<p>{p}</p>
+			{/each}
+		{/each}
+	</div>
+{/snippet}
+
 <div class="wrap posts">
 	{#each posts as post (post.slug)}
 		<article id={post.slug} class="post">
@@ -45,17 +65,19 @@
 			{#if post.intro}
 				<p class="intro">{t(post.intro)}</p>
 			{/if}
-			<div class="post-text">
-				{#each tl(post.text) as p}
-					<p>{p}</p>
-				{/each}
-				{#each post.sections ?? [] as section, i}
-					<h3 class="question"><span class="q-num">{i + 1}.</span> {t(section.question)}</h3>
-					{#each tl(section.answer) as p}
-						<p>{p}</p>
-					{/each}
-				{/each}
-			</div>
+			{#if post.image}
+				<a class="post-image" href={imageUrl(post.image)} target="_blank" rel="noopener">
+					<img src={imageUrl(post.image)} alt={t(post.title)} loading="lazy" />
+				</a>
+				{#if post.text || post.sections}
+					<details class="post-more">
+						<summary>{t(blog.readText)}</summary>
+						{@render body(post)}
+					</details>
+				{/if}
+			{:else}
+				{@render body(post)}
+			{/if}
 		</article>
 	{/each}
 </div>
@@ -148,5 +170,23 @@
 	}
 	.post-text p {
 		text-wrap: pretty;
+	}
+	.post-image {
+		display: block;
+		margin-top: 0.4rem;
+	}
+	.post-image img {
+		display: block;
+		width: 100%;
+		height: auto;
+		border: 1px solid var(--rule);
+	}
+	.post-more summary {
+		cursor: pointer;
+		color: var(--navy);
+		font-weight: 700;
+	}
+	.post-more[open] summary {
+		margin-bottom: 0.4rem;
 	}
 </style>
