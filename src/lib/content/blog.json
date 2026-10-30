@@ -18,6 +18,49 @@
 	},
 	"posts": [
 		{
+			"slug": "bisogno-di-radicamento",
+			"date": "2026-10-29",
+			"title": {
+				"it": "Bisogno di radicamento",
+				"es": "Necesidad de arraigo",
+				"en": "The need for roots"
+			},
+			"intro": {
+				"it": "Intervento di Antonio Mariniello all’inaugurazione dei lavori per il X Congresso ARIM.",
+				"es": "Discurso de Antonio Mariniello en la inauguración de los trabajos del X Congreso de ARIM (traducción del original en italiano).",
+				"en": "Antonio Mariniello’s address at the opening of the 10th ARIM Congress (translated from the Italian original)."
+			},
+			"text": {
+				"it": [
+					"Buongiorno a tutti, porto il saluto del presidente Giovanni Buzzurro e di tutto il Com.It.Es. Auguri per i vostri primi dieci anni, traguardo importantissimo, e grazie mille per averci invitato.",
+					"Io oggi qui rappresento la comunità italiana, tifo per la comunità italiana e vorrei provare a convincervi a fare lo stesso nei prossimi minuti. Sicuro di essere tra gente colta, comincio con una citazione: “l’uomo – sosteneva Erich Fromm – ha un bisogno insopprimibile di radicamento”.",
+					"E forse forse aveva ragione.",
+					"Durante la mia esperienza come rappresentante Com.It.Es, ho infatti conosciuto tantissimi italiani che, nonostante avessero migliorato, in qualche caso anche di molto, i loro standard di vita, mostravano un palese senso di inadeguatezza ed insoddisfazione: evidentemente quel bisogno insopprimibile si faceva sentire.",
+					"Perché, diciamocela tutta, si può guadagnare bene, vivere in una bella casa e provare lo stesso la mancanza del caffè della mamma al mattino, dell’amico d’infanzia che ti piomba in casa senza preavviso o del ragù della domenica in famiglia. Semplicemente perché, quel vuoto, non lo riempi neanche con tutto l’oro del mondo.",
+					"Allora l’idea di una comunità che possa semplicemente comprendere il tuo sentire, assecondare i tuoi gesti e persino comprendere il senso profondo delle tue bestemmie, rigorosamente in dialetto, diventa essenziale, anche in questa prospettiva. Poter condividere, con altri, una verità, tanto fondamentale quanto complicata: quello che hai conquistato qui è valore, ma lo è anche quello che hai lasciato. L’idea di una comunità che possa risolvere, in qualche modo, questa dicotomia, e accettare questa duplicità di chi è costretto a far convivere due vite in una. L’idea di una comunità che “ci comprenda” nelle due accezioni del termine. L’idea, infine, di una comunità che, per dirlo con le parole del grande poeta minimalista Vasco Rossi, dia “un senso a tutto quello che un senso non ce l’ha”.",
+					"Insomma, quel bisogno insopprimibile di radicamento, di cui parlava Fromm, è praticamente quasi impossibile da sradicare, ma lo si può alimentare se si convive con una comunità che condivide questo sentimento e queste radici. E quale miglior dimostrazione di quanto sostenuto se non il fatto che, citazioni come questa appena fatta su Vasco, è bello ci sia qualcuno che possa comprenderla e sorriderne insieme a noi… o no?"
+				],
+				"es": [
+					"Buenos días a todos. Les traigo el saludo del presidente Giovanni Buzzurro y de todo el Com.It.Es. Felicidades por sus primeros diez años, una meta importantísima, y muchas gracias por invitarnos.",
+					"Hoy aquí represento a la comunidad italiana, le voy a la comunidad italiana y en los próximos minutos quisiera intentar convencerlos de hacer lo mismo. Seguro de estar entre gente culta, empiezo con una cita: “el hombre – sostenía Erich Fromm – tiene una necesidad irreprimible de arraigo”.",
+					"Y quizás, quizás, tenía razón.",
+					"De hecho, en mi experiencia como representante del Com.It.Es., conocí a muchísimos italianos que, a pesar de haber mejorado su nivel de vida, en algunos casos incluso mucho, mostraban una evidente sensación de inadecuación e insatisfacción: era claro que esa necesidad irreprimible se hacía sentir.",
+					"Porque, seamos sinceros, uno puede ganar bien, vivir en una casa bonita y aun así extrañar el café de mamá por la mañana, al amigo de la infancia que te cae en casa sin avisar o el ragú del domingo en familia. Simplemente porque ese vacío no lo llenas ni con todo el oro del mundo.",
+					"Entonces la idea de una comunidad que pueda simplemente entender lo que sientes, seguirte en tus gestos e incluso entender el sentido profundo de tus maldiciones, rigurosamente en dialecto, se vuelve esencial, también desde esta perspectiva. Poder compartir con otros una verdad tan fundamental como complicada: lo que conquistaste aquí es valioso, pero también lo es lo que dejaste. La idea de una comunidad que pueda resolver, de algún modo, esta dicotomía y aceptar la doble condición de quien tiene que hacer convivir dos vidas en una. La idea de una comunidad que “ci comprenda”, que nos entienda y nos incluya, en los dos sentidos de la palabra italiana. La idea, por último, de una comunidad que, con las palabras del gran poeta minimalista Vasco Rossi, dé “un senso a tutto quello che un senso non ce l’ha” (“un sentido a todo lo que no tiene sentido”).",
+					"En fin, esa necesidad irreprimible de arraigo de la que hablaba Fromm es prácticamente imposible de desarraigar, pero se puede alimentar si se convive con una comunidad que comparte este sentimiento y estas raíces. ¿Y qué mejor prueba de lo que digo que el hecho de que, con una cita como esta que acabo de hacer de Vasco, es bonito que haya alguien que pueda entenderla y sonreír con nosotros… o no?"
+				],
+				"en": [
+					"Good morning, everyone. I bring you greetings from our president, Giovanni Buzzurro, and from the whole Com.It.Es. Congratulations on your first ten years, a hugely important milestone, and thank you so much for inviting us.",
+					"Today I am here representing the Italian community. I root for the Italian community, and over the next few minutes I would like to try to convince you to do the same. Confident that I am among cultured people, I will start with a quote: “man”, Erich Fromm argued, “has an irrepressible need for roots”.",
+					"And maybe, just maybe, he was right.",
+					"In my time as a Com.It.Es. representative, I have met a great many Italians who, even though they had raised their standard of living, in some cases by a lot, showed an obvious sense of inadequacy and dissatisfaction: clearly that irrepressible need was making itself felt.",
+					"Because, let’s be honest, you can earn well, live in a lovely house and still miss your mother’s coffee in the morning, the childhood friend who drops by unannounced, or the Sunday ragù with the family. Quite simply, you can’t fill that gap with all the gold in the world.",
+					"So the idea of a community that can simply understand how you feel, go along with your gestures and even grasp the deeper meaning of your curses, strictly in dialect, becomes essential, from this point of view too. Being able to share with others a truth as fundamental as it is complicated: what you have achieved here has value, but so does what you left behind. The idea of a community that can somehow resolve this dichotomy and accept the double life of those who have to fit two lives into one. The idea of a community that “ci comprenda”, that both understands us and includes us, in the two senses of the Italian word. And finally, the idea of a community that, in the words of the great minimalist poet Vasco Rossi, gives “un senso a tutto quello che un senso non ce l’ha” (“meaning to everything that has no meaning”).",
+					"In short, the irrepressible need for roots that Fromm spoke of is practically impossible to uproot, but it can be nourished by living alongside a community that shares this feeling and these roots. And what better proof of my point than the fact that, with a quote like the one I just made from Vasco, it is nice to have someone who can understand it and smile about it with us… right?"
+				]
+			}
+		},
+		{
 			"slug": "intervista-puntodincontro",
 			"date": "2026-10-26",
 			"title": {
