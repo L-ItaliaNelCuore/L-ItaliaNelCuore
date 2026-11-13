@@ -11,6 +11,8 @@
 	import towerEn from '$lib/assets/brand/tower-en.jpg';
 	import logo from '$lib/assets/brand/logo-720.png';
 	import community from '$lib/assets/brand/community.jpg';
+	import voteVideo from '$lib/assets/video/come-votare.mp4';
+	import voteVideoPoster from '$lib/assets/video/come-votare-poster.jpg';
 	import CandidatePhoto from '$lib/components/CandidatePhoto.svelte';
 	import Signature from '$lib/components/Signature.svelte';
 	import Slogan from '$lib/components/Slogan.svelte';
@@ -116,6 +118,26 @@
 			{/each}
 		</div>
 		<a class="text-link" href={href(__HASH_ROUTER__ ? '/about' : '/about#letter')}>{t(home.letter.cta)}</a>
+	</div>
+</section>
+
+<!-- How to vote: video -->
+<section class="video-section" aria-labelledby="video-title">
+	<div class="wrap video-inner">
+		<h2 id="video-title" class="display section-title"><span class="bar">{t(home.video.title)}</span></h2>
+		<div class="video-frame">
+			<video
+				src={voteVideo}
+				poster={voteVideoPoster}
+				controls
+				playsinline
+				preload="metadata"
+				aria-label={t(home.video.label)}
+				width="1280"
+				height="720"
+			></video>
+		</div>
+		<a class="text-link" href={href('/vote')}>{t(home.video.cta)}</a>
 	</div>
 </section>
 
@@ -467,6 +489,29 @@
 		line-height: 1.55;
 	}
 
+	/* How to vote video */
+	.video-section {
+		background: var(--cream);
+		padding-block: clamp(3rem, 7vw, 5rem);
+		margin-bottom: clamp(3.5rem, 8vw, 6rem);
+	}
+	.video-inner {
+		display: grid;
+		gap: 1.5rem;
+		justify-items: start;
+	}
+	.video-frame {
+		width: 100%;
+		max-width: 960px;
+		background: var(--navy);
+		box-shadow: 0 12px 32px rgb(0 0 0 / 0.15);
+	}
+	.video-frame video {
+		display: block;
+		width: 100%;
+		height: auto;
+		aspect-ratio: 16 / 9;
+	}
 	/* Record and program */
 	.pair {
 		display: grid;

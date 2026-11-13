@@ -136,6 +136,23 @@
 			"en": "Read the full letter"
 		}
 	},
+	"video": {
+		"title": {
+			"es": "Cómo votar",
+			"it": "Come votare",
+			"en": "How to vote"
+		},
+		"label": {
+			"es": "Video: cómo votar en las elecciones del Com.It.Es. México",
+			"it": "Video: come votare alle elezioni del Com.It.Es. Messico",
+			"en": "Video: how to vote in the Com.It.Es. Mexico elections"
+		},
+		"cta": {
+			"es": "Todos los pasos para votar",
+			"it": "Tutti i passi per votare",
+			"en": "Every step to vote"
+		}
+	},
 	"record": {
 		"title": {
 			"es": "Cinco años de trabajo",
