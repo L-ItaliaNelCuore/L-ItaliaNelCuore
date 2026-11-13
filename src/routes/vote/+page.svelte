@@ -6,6 +6,8 @@
 	import { t } from '$lib/i18n.svelte.js';
 	import vote from '$lib/content/vote.json';
 	import ui from '$lib/content/ui.json';
+	import voteVideo from '$lib/assets/video/come-votare.mp4';
+	import voteVideoPoster from '$lib/assets/video/come-votare-poster.jpg';
 
 	let copied = $state(false);
 	let shared = $state(false);
@@ -74,6 +76,20 @@
 						<button type="button" class="button small" onclick={copyEmail}>
 							{copied ? t(vote.copied) : t(vote.copy)}
 						</button>
+					</div>
+				{/if}
+				{#if step.video}
+					<div class="video-frame">
+						<video
+							src={voteVideo}
+							poster={voteVideoPoster}
+							controls
+							playsinline
+							preload="metadata"
+							aria-label={t(vote.videoLabel)}
+							width="1280"
+							height="720"
+						></video>
 					</div>
 				{/if}
 				{#if step.link}
@@ -213,6 +229,19 @@
 	}
 	.done .numeral {
 		color: var(--sky-soft);
+	}
+
+	.video-frame {
+		width: 100%;
+		margin-top: 0.5rem;
+		background: var(--navy);
+		box-shadow: 0 12px 32px rgb(0 0 0 / 0.15);
+	}
+	.video-frame video {
+		display: block;
+		width: 100%;
+		height: auto;
+		aspect-ratio: 16 / 9;
 	}
 
 	.email-row {

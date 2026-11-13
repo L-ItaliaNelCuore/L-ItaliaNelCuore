@@ -57,11 +57,11 @@
 				"en": "By November 4"
 			},
 			"status": {
-				"es": "Abierto ahora",
-				"it": "Aperto ora",
-				"en": "Open now"
+				"es": "Concluido",
+				"it": "Concluso",
+				"en": "Closed"
 			},
-			"done": false,
+			"done": true,
 			"text": {
 				"es": "Llena el formulario de solicitud y envíalo, junto con una copia de un documento de identidad, a consolare.messico@esteri.it, o entrégalo en persona en el Consulado.",
 				"it": "Compila il modulo di richiesta e invialo, insieme a una copia di un documento d’identità, a consolare.messico@esteri.it, oppure consegnalo di persona al Consolato.",
@@ -94,7 +94,8 @@
 				"es": "La boleta llega por correo a tu domicilio. Vota por la lista “Con Mariniello – L’Italia nel cuore” y devuélvela por correo o entrega el sobre directamente en la Embajada.",
 				"it": "La scheda arriva per posta al tuo indirizzo. Vota la lista “Con Mariniello – L’Italia nel cuore” e rispediscila per posta oppure consegna il plico direttamente in Ambasciata.",
 				"en": "Your ballot arrives by mail at your home address. Vote for the “Con Mariniello – L’Italia nel cuore” list and send it back by mail, or hand the envelope in at the Embassy."
-			}
+			},
+			"video": true
 		}
 	],
 	"stepLabel": {
@@ -162,5 +163,10 @@
 		"es": "Cómo votar en las elecciones del Com.It.Es. México: pide votar antes del 4 de noviembre y vota del 15 de noviembre al 4 de diciembre.",
 		"it": "Come votare alle elezioni del Com.It.Es. Messico: chiedi di votare entro il 4 novembre e vota dal 15 novembre al 4 dicembre.",
 		"en": "How to vote in the Com.It.Es. Mexico election: ask for your ballot by November 4 and vote between November 15 and December 4."
+	},
+	"videoLabel": {
+		"es": "Video: cómo votar en las elecciones del Com.It.Es. México",
+		"it": "Video: come votare alle elezioni del Com.It.Es. Messico",
+		"en": "Video: how to vote in the Com.It.Es. Mexico elections"
 	}
 }

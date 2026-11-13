@@ -56,11 +56,11 @@
 					"en": "Ask the Consulate for your ballot"
 				},
 				"status": {
-					"es": "Abierto ahora",
-					"it": "Aperto ora",
-					"en": "Open now"
+					"es": "Concluido",
+					"it": "Concluso",
+					"en": "Closed"
 				},
-				"done": false
+				"done": true
 			},
 			{
 				"when": {
