@@ -48,6 +48,26 @@
 	</div>
 </section>
 
+<!-- How to vote: video -->
+<section class="video-section" aria-labelledby="video-title">
+	<div class="wrap video-inner">
+		<h2 id="video-title" class="display section-title"><span class="bar">{t(home.video.title)}</span></h2>
+		<div class="video-frame">
+			<video
+				src={voteVideo}
+				poster={voteVideoPoster}
+				controls
+				playsinline
+				preload="metadata"
+				aria-label={t(home.video.label)}
+				width="1280"
+				height="720"
+			></video>
+		</div>
+		<a class="text-link" href={href('/vote')}>{t(home.video.cta)}</a>
+	</div>
+</section>
+
 <!-- Key dates -->
 <section class="dates" aria-labelledby="dates-title">
 	<div class="wrap">
@@ -118,26 +138,6 @@
 			{/each}
 		</div>
 		<a class="text-link" href={href(__HASH_ROUTER__ ? '/about' : '/about#letter')}>{t(home.letter.cta)}</a>
-	</div>
-</section>
-
-<!-- How to vote: video -->
-<section class="video-section" aria-labelledby="video-title">
-	<div class="wrap video-inner">
-		<h2 id="video-title" class="display section-title"><span class="bar">{t(home.video.title)}</span></h2>
-		<div class="video-frame">
-			<video
-				src={voteVideo}
-				poster={voteVideoPoster}
-				controls
-				playsinline
-				preload="metadata"
-				aria-label={t(home.video.label)}
-				width="1280"
-				height="720"
-			></video>
-		</div>
-		<a class="text-link" href={href('/vote')}>{t(home.video.cta)}</a>
 	</div>
 </section>
 
@@ -493,7 +493,6 @@
 	.video-section {
 		background: var(--cream);
 		padding-block: clamp(3rem, 7vw, 5rem);
-		margin-bottom: clamp(3.5rem, 8vw, 6rem);
 	}
 	.video-inner {
 		display: grid;
