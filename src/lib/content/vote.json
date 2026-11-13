@@ -5,9 +5,9 @@
 		"en": "How to vote"
 	},
 	"lede": {
-		"es": "Las elecciones del Com.It.Es. son por correo, y la boleta solo llega a quien la pide. Pídela antes del 4 de noviembre.",
-		"it": "Le elezioni del Com.It.Es. si svolgono per posta, e la scheda arriva solo a chi la chiede. Chiedila entro il 4 novembre.",
-		"en": "The Com.It.Es. election is a postal vote, and ballots only go to people who ask for one. Ask for yours by November 4."
+		"es": "Las elecciones del Com.It.Es. son por correo. Si pediste votar, tu boleta llega a tu domicilio: vota del 15 de noviembre al 4 de diciembre.",
+		"it": "Le elezioni del Com.It.Es. si svolgono per posta. Se hai chiesto di votare, la scheda arriva al tuo indirizzo: vota dal 15 novembre al 4 dicembre.",
+		"en": "The Com.It.Es. election is a postal vote. If you asked to vote, your ballot is mailed to your home: vote between November 15 and December 4."
 	},
 	"who": {
 		"title": {
@@ -115,14 +115,14 @@
 	},
 	"tip": {
 		"title": {
-			"es": "Antes del 4 de noviembre",
-			"it": "Prima del 4 novembre",
-			"en": "Before November 4"
+			"es": "¿Pediste votar?",
+			"it": "Hai chiesto di votare?",
+			"en": "Did you ask to vote?"
 		},
 		"text": {
-			"es": "Revisa que tu domicilio esté actualizado en el portal Fast It del Consulado: la boleta se envía por correo a esa dirección.",
-			"it": "Controlla che il tuo indirizzo sia aggiornato sul portale Fast It del Consolato: la scheda viene spedita per posta a quell’indirizzo.",
-			"en": "Make sure your address is up to date on the Consulate’s Fast It portal: your ballot is mailed to that address."
+			"es": "La boleta se envía por correo a la dirección registrada en el portal Fast It del Consulado. Si no te llega, contacta al Consulado.",
+			"it": "La scheda viene spedita per posta all’indirizzo registrato sul portale Fast It del Consolato. Se non ti arriva, contatta il Consolato.",
+			"en": "Your ballot is mailed to the address registered on the Consulate’s Fast It portal. If it doesn’t arrive, contact the Consulate."
 		},
 		"link": {
 			"label": "Fast It",
@@ -144,9 +144,9 @@
 			"en": "Help the list"
 		},
 		"text": {
-			"es": "Cuéntales a tus familiares y amigos italianos en México que pidan votar antes del 4 de noviembre, y comparte esta página con ellos.",
-			"it": "Di’ ai tuoi familiari e amici italiani in Messico di chiedere di votare entro il 4 novembre, e condividi con loro questa pagina.",
-			"en": "Tell your Italian family and friends in Mexico to ask for their ballot by November 4, and share this page with them."
+			"es": "Recuérdales a tus familiares y amigos italianos en México que voten y devuelvan la boleta antes del 4 de diciembre, y comparte esta página con ellos.",
+			"it": "Ricorda ai tuoi familiari e amici italiani in Messico di votare e rispedire la scheda entro il 4 dicembre, e condividi con loro questa pagina.",
+			"en": "Remind your Italian family and friends in Mexico to vote and send their ballot back by December 4, and share this page with them."
 		}
 	},
 	"share": {
@@ -160,9 +160,9 @@
 		"en": "Link copied"
 	},
 	"metaDescription": {
-		"es": "Cómo votar en las elecciones del Com.It.Es. México: pide votar antes del 4 de noviembre y vota del 15 de noviembre al 4 de diciembre.",
-		"it": "Come votare alle elezioni del Com.It.Es. Messico: chiedi di votare entro il 4 novembre e vota dal 15 novembre al 4 dicembre.",
-		"en": "How to vote in the Com.It.Es. Mexico election: ask for your ballot by November 4 and vote between November 15 and December 4."
+		"es": "Cómo votar en las elecciones del Com.It.Es. México: la boleta llega por correo y se vota del 15 de noviembre al 4 de diciembre.",
+		"it": "Come votare alle elezioni del Com.It.Es. Messico: la scheda arriva per posta e si vota dal 15 novembre al 4 dicembre.",
+		"en": "How to vote in the Com.It.Es. Mexico election: your ballot arrives by mail and you vote between November 15 and December 4."
 	},
 	"videoLabel": {
 		"es": "Video: cómo votar en las elecciones del Com.It.Es. México",
