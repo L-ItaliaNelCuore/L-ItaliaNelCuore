@@ -23,6 +23,49 @@
 	},
 	"posts": [
 		{
+			"slug": "nessuno-si-salva-da-solo",
+			"date": "2026-11-23",
+			"title": {
+				"es": "Nadie se salva solo",
+				"it": "Nessuno si salva da solo",
+				"en": "Nobody is saved alone"
+			},
+			"intro": {
+				"es": "Reflexión de Antonio Mariniello después del “Mercatino di Natale” de la A.I.A.",
+				"it": "Riflessione di Antonio Mariniello dopo il “Mercatino di Natale” dell’A.I.A. (traduzione dall’originale in spagnolo).",
+				"en": "Antonio Mariniello’s thoughts after the A.I.A. “Mercatino di Natale” (translated from the Spanish original)."
+			},
+			"text": {
+				"es": [
+					"Ayer, como todos los años, participé con mi familia en el “Mercatino di Natale”, organizado por la A.I.A., la Asociación Italiana de Asistencia, que desde hace más de cien años ayuda a los italianos en dificultad aquí en México. Regresé con una reflexión, que quiero compartirles: ser solidarios no es un lujo, un capricho ni siquiera una opción, es un deber ineludible. Y no lo digo solo yo, sino también el texto más lindo del mundo, nuestra Constitución, que, en su artículo 2, indica: “La República reconoce y garantiza los derechos inviolables del hombre (…) y exige el cumplimiento de los deberes ineludibles de solidaridad política, económica y social”.",
+					"Tenemos, por lo tanto, una responsabilidad social que debemos ejercer en nuestra vida cotidiana. Añado que esta responsabilidad se debe asumir no limitándose a la caridad o al asistencialismo, prácticas por cierto muy nobles, sino yendo más allá, hasta una idea de solidaridad que tenga como destino final la justicia social. Me explico, recurriendo a una pequeña historia que solía contar un profesor de un curso de voluntariado al cual participé cuando era joven. Él siempre nos decía: “si estás sentado y ves aparecer por la esquina a alguien con la cabeza rota, le ayudas a vendarse la cabeza; llega el segundo y haz lo mismo, pero apenas llegue el tercero levanta el culo y dobla la esquina para ver quién está pegando a esos chicos y trata de detenerlos”. Porque las curitas están bien, pero entender cómo hacer para que esas curitas ya no sean necesarias es mejor.",
+					"Como representante de la comunidad italiana en México, estoy además convencido de que el tema de la solidaridad está indudablemente ligado a la idea de comunidad, porque es evidente que no puede existir comunidad sin solidaridad y viceversa.",
+					"“Nadie se salva solo”, escribía Mazzantini hace unos años. Nada más cierto, porque una comunidad prospera solo si es una comunidad solidaria. Basta con pensar en las comunidades más sólidas que nos vienen a la mente (sí, justo esa) y verán cómo estos dos conceptos, solidaridad y comunidad, son vacíos el uno sin el otro.",
+					"Por eso, eventos como el “Mercatino di Natale” han tenido, tienen y siempre tendrán el apoyo del Com.It.Es. en cuanto pasos importantes hacia la construcción de una comunidad solidaria.",
+					"Termino recordando una de las muchas cosas de las cuales estoy orgulloso de ser napolitano, que es el principio que subyace al célebre dicho popular: “En Nápoles nunca estás realmente solo”. Un principio que sabe a cultura, solidaridad, empatía, civilización y que se ha consolidado a lo largo de los siglos, de acuerdo al cual cada persona que vaya a vivir a la sombra del Vesubio, sin importar latitud, raza, orientación sexual, estrato social o credo que tenga, siempre vive con el convencimiento de ser parte integrante de una comunidad que lo apoya.",
+					"Me gustaría que, algún día, cada italiano al que se le pida hablar de su experiencia con nuestra comunidad en este País, pueda serenamente decir “en México nunca estás realmente solo”."
+				],
+				"it": [
+					"Ieri, come ogni anno, ho partecipato con la mia famiglia al “Mercatino di Natale” organizzato dall’A.I.A., l’Associazione Italiana di Assistenza, che da oltre cent’anni aiuta gli italiani in difficoltà qui in Messico. Sono tornato a casa con una riflessione che voglio condividere con voi: essere solidali non è un lusso, un capriccio e neppure una scelta, è un dovere inderogabile. E non lo dico solo io, ma anche il testo più bello del mondo, la nostra Costituzione, che all’articolo 2 recita: “La Repubblica riconosce e garantisce i diritti inviolabili dell’uomo (…) e richiede l’adempimento dei doveri inderogabili di solidarietà politica, economica e sociale”.",
+					"Abbiamo quindi una responsabilità sociale da esercitare nella nostra vita quotidiana. Aggiungo che questa responsabilità va assunta non limitandosi alla carità o all’assistenzialismo, pratiche peraltro nobilissime, ma andando oltre, fino a un’idea di solidarietà che abbia come approdo finale la giustizia sociale. Mi spiego con una piccola storia che raccontava un professore di un corso di volontariato a cui partecipai da giovane. Ci diceva sempre: “se sei seduto e vedi spuntare dall’angolo qualcuno con la testa rotta, lo aiuti a fasciarsi la testa; arriva il secondo e fai lo stesso, ma appena arriva il terzo alza il culo, gira l’angolo per vedere chi sta picchiando quei ragazzi e prova a fermarlo”. Perché i cerotti vanno bene, ma capire come fare perché quei cerotti non servano più è meglio.",
+					"Come rappresentante della comunità italiana in Messico, sono inoltre convinto che il tema della solidarietà sia indubbiamente legato all’idea di comunità, perché è evidente che non può esistere comunità senza solidarietà e viceversa.",
+					"“Nessuno si salva da solo”, scriveva Mazzantini qualche anno fa. Niente di più vero, perché una comunità prospera solo se è una comunità solidale. Basta pensare alle comunità più solide che ci vengono in mente (sì, proprio quella) e vedrete come questi due concetti, solidarietà e comunità, siano vuoti l’uno senza l’altro.",
+					"Per questo eventi come il “Mercatino di Natale” hanno avuto, hanno e avranno sempre il sostegno del Com.It.Es., in quanto passi importanti verso la costruzione di una comunità solidale.",
+					"Chiudo ricordando una delle tante cose per cui sono orgoglioso di essere napoletano: il principio che sta alla base del celebre detto popolare “A Napoli non sei mai veramente solo”. Un principio che sa di cultura, solidarietà, empatia, civiltà, e che si è consolidato nel corso dei secoli, per cui chiunque vada a vivere all’ombra del Vesuvio, a prescindere da latitudine, razza, orientamento sessuale, ceto sociale o credo, vive sempre con la convinzione di essere parte integrante di una comunità che lo sostiene.",
+					"Mi piacerebbe che un giorno ogni italiano a cui si chieda di raccontare la propria esperienza con la nostra comunità in questo Paese possa dire serenamente: “in Messico non sei mai veramente solo”."
+				],
+				"en": [
+					"Yesterday, as I do every year, I went with my family to the “Mercatino di Natale”, the Christmas market organized by the A.I.A., the Italian Assistance Association, which for more than a hundred years has been helping Italians in need here in Mexico. I came home with a thought I want to share with you: solidarity is not a luxury, a whim or even a choice; it is a binding duty. And it is not just me saying so, but also the most beautiful text in the world, our Constitution, whose Article 2 states: “The Republic recognizes and guarantees the inviolable rights of the person (…) and requires the fulfilment of the binding duties of political, economic and social solidarity”.",
+					"So we have a social responsibility that we must exercise in our daily lives. I would add that we should not take on this responsibility by stopping at charity or handouts, very noble practices as they are, but by going further, towards an idea of solidarity whose final goal is social justice. Let me explain with a little story that a teacher on a volunteering course I took when I was young used to tell. He always said: “if you are sitting down and you see someone come round the corner with a broken head, you help them bandage it; the second one arrives and you do the same, but as soon as the third one shows up, get off your backside, go round the corner to see who is beating up those kids, and try to stop them”. Because band-aids are fine, but working out how to make those band-aids unnecessary is better.",
+					"As a representative of the Italian community in Mexico, I am also convinced that solidarity is undoubtedly bound up with the idea of community, because there clearly cannot be community without solidarity, and vice versa.",
+					"“Nobody is saved alone”, Mazzantini wrote a few years ago. Nothing could be truer, because a community only thrives if it is a community that stands together. Just think of the strongest communities that come to mind (yes, that very one) and you will see how these two ideas, solidarity and community, are empty without each other.",
+					"That is why events like the “Mercatino di Natale” have had, have and always will have the support of the Com.It.Es., as important steps towards building a community that stands together.",
+					"I will finish by recalling one of the many things that make me proud to be Neapolitan: the principle behind the famous popular saying “In Naples you are never really alone”. A principle that tastes of culture, solidarity, empathy and civility, and that has grown stronger over the centuries, by which anyone who goes to live in the shadow of Vesuvius, whatever their latitude, race, sexual orientation, social class or creed, always lives in the certainty of being an integral part of a community that supports them.",
+					"I would like that, one day, every Italian asked to talk about their experience with our community in this country can calmly say: “in Mexico you are never really alone”."
+				]
+			}
+		},
+		{
 			"slug": "bisogno-di-radicamento",
 			"date": "2026-10-29",
 			"image": "bisogno-di-radicamento.jpg",
